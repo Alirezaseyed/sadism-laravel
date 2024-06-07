@@ -229,9 +229,7 @@ Verta::setLocale('ar');
 
 ## Licence
 
-This package has been created by Nasser Hekmati under the license of MIT.
+This package has been created by Alireza Haji Seyed Hassan  under the license of MIT.
 
 ## Contributors
 Thanks to people who contributed for grow saad.
-
-<a href="https://github.com/hekmatinasser/saad/graphs/contributors"><img src="https://opencollective.com/saad/contributors.svg?button=false" /></a>
