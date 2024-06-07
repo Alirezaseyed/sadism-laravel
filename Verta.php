@@ -1,21 +1,18 @@
 <?php
 
-namespace Hekmatinasser\Verta;
+namespace Hekmatinasser\Verta\Facades;
 
-use Exception;
-use Hekmatinasser\Jalali\Jalali;
-use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\Facade;
 
-class Verta extends Jalali
+class Verta extends Facade
 {
     /**
-     * Create a Carbon instance from Verta
+     * Get the registered name of the component.
      *
-     * @return Carbon
-     * @throws Exception
+     * @return string
      */
-    public function toCarbon(): Carbon
+    protected static function getFacadeAccessor()
     {
-        return new Carbon($this->datetime(), $this->timezone);
+        return 'saad';
     }
 }
